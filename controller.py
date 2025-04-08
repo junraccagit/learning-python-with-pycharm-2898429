@@ -3,7 +3,7 @@ import pygame_gui
 
 
 class EventController:
-    def __init__(self, start: pygame_gui.elements.UIButton, next: pygame_gui.elements.UIButton, reset: pygame_gui.elements.UIButton):
+    def __init__(self, start: pygame_gui.elements.UIButton, next: pygame_gui.elements.UIButton, reset: pygame_gui.elements.UIButton, shapes: pygame_gui.elements.UIDropDownMenu):
         self.start_button = start
         self.next_button = next
         self.reset_button = reset
